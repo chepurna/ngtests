@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="CAS" verbose="1" >
+  <test name="RegressionT1"   >
+  <classes>
+  <class name="com.ghtest.ngtests.NewTest1">
+      <methods>
+        <include name="testCheckoutText" />
+      </methods>
+    </class>
+  </classes>
+ </test>
+  <test name="RegressionT2"   >
+  <classes>
+  <class name="com.ghtest.ngtests.NewTest2">
+      <methods>
+        <include name="testMenuItemsText" />
+      </methods>
+    </class>
+  </classes>
+ </test>
+</suite>
